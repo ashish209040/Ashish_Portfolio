@@ -1,0 +1,315 @@
+@media screen and (max-width:400px){
+    body{
+        overflow-x: hidden;
+    }
+
+    /* ==============
+    NAV START
+    ============== */
+    .navigation nav {
+        height: 60px;
+        margin-left: 85px;
+        width: 85%;
+    }
+    nav li{
+        font-size: 20px;
+    }
+    .navigation{
+        width: 895px;
+        height: 640px;
+        background-size: contain;
+    }
+
+    .navigation-text {
+        font-size: 90px;
+    }
+
+    .media-1 {
+        /* border: 1px solid green; */
+        height: 65px;
+        width: 65px;
+        font-size: 40px;
+    }
+
+    .navigation-photo{
+        margin-left: -34%;
+    }
+    .navigation-photo {
+        height: 350px;
+        width: 350px;
+        left: 580px;
+    }
+    .navigation nav ul a {
+        text-decoration: none;
+        color: white;
+        font-size: 19px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    /* ==============
+    NAV END
+    ============== */
+
+    /* ==============
+    ABOUT START
+    ============== */
+    #about{
+        width: 1000px;
+        height: 930px;
+    }
+    #about p {
+        font-size: 35px;
+        width: 80%;
+        margin: 98px 161px 20px 0px;
+    }
+
+    /* ==============
+    ABOUT END
+    ============== */
+
+    /* ==============
+    SKILLS START
+    ============== */
+    
+    #skills{
+        width: 1000px;
+        height: 2100px;
+    }
+    .upper-item{
+        flex-direction: column;
+        height: 950px;
+        margin-top: 60px;
+        margin: 5% 0%;
+    }
+    .lower-item{
+        margin-top: 20px;
+        flex-direction: column;
+        height: 950px;
+        margin-top: 60px;
+        margin: -5% 0%;
+    }
+
+    .u-i-1,.l-i-1{
+        margin: 100px 0px;
+        height: 40px;
+        width: 60%;
+        display: grid;
+        place-items: center;
+    }
+    
+    .skill-progress {
+        height: 115px;
+        width: 130%;
+        border-radius: 65px;
+        box-shadow: 2.5px 2.5px 10px rgb(0 0 0 / 49%);
+    }
+
+    .skill_HTML, .skill_CSS, .skill_JS, .skill_JQ, .skill_NJS, .skill_GIT, .skill_RJS, .skill_SQL {
+        border: 1px solid transparent;
+        /* width: 80%; */
+        height: 100%;
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+    }
+
+    .skill_HTML p, .skill_CSS p, .skill_JS p, .skill_JQ p, .skill_NJS p, .skill_GIT p, .skill_RJS p     {
+        margin: 7% 18%;
+        font-size: 35px;
+    }
+    .skill-head {
+        /* border: 1px solid blue; */
+        height: 90px;
+        width: 300px;
+        margin: 1% 45%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #skill-img {
+        height: 100%;
+        width: 90%;
+    }
+
+    #skill-h1 {
+        font-size: 55px;
+        text-align: left;
+        margin: 0% -20%;
+    }
+
+    /* ==============
+    SKILLS END
+    ============== */
+
+     /* ==============
+    WORKEXP START
+    ============== */
+
+    #workexp{
+        width: 900px;
+        height: 1000px;
+    }
+
+    .workh-right {
+        width: 105%;
+        height: 100%;
+    }
+    
+    .workexp-head {
+        height: 235px;
+        width: 385px;
+        margin: 1% 32%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #workexp-img {
+        height: 100%;
+        width: 130%;
+        margin: 0% 155%;
+    }
+
+    #workexp-h1 {
+        font-size: 55px;
+        text-align: left;
+        margin: 0% -20%;
+    }
+ 
+    /* ==============
+    WORKEXP END
+    ============== */
+
+
+    /* ==============
+    EDUCATION START
+    ============== */
+
+    #education{
+        height: 1000px;
+        width: 900px;
+    }
+    /* ==============
+    EDUCATION END
+    ============== */
+
+
+    /* ==============
+    PORTFOLIO START
+    ============== */
+    #portfolio{
+        height: 3380px;
+        width: 900px;
+    }
+
+    .port-right {
+        width: 105%;
+        height: 100%;
+    }
+    
+    .port-head {
+        height: 235px;
+        width: 385px;
+        margin: 1% 32%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #port-img {
+        height: 90%;
+        width: 100%;
+        margin: 10% 100%;
+    }
+
+    #port-h1 {
+        font-size: 55px;
+        text-align: left;
+        margin: -10% 8%;
+    }
+
+
+
+
+
+    .p-upper-item {
+        /* border: 1px solid blue; */
+        height: 1500px;
+        width: 286%;
+        margin: 6% 2%;
+        display: flex;
+        flex-direction: column;
+    }
+    .p-lower-item {
+        /* border: 1px solid blue; */
+        height: 1500px;
+        width: 286%;
+        margin: 6% 2%;
+        display: flex;
+        flex-direction: column;
+    }
+    .pu-i-1, .pl-i-1 {
+        width: 33%;
+        border-radius: 40px;
+        height: 100%;
+        margin: 20px 0%;
+    }
+
+    #t1-btn {
+        height: 50px;
+        width: 85%;
+        margin: 5%;
+        font-size: 30px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    #t2-btn {
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        margin: 5% 0% 5% 70%;
+    }
+    #t2-btn i {
+        font-size: 35px;
+    }
+
+    .l-1-h1 {
+        width: 100%;
+        font-size: 33px;
+        margin: 45% 0 5% 10%;
+    }
+
+    .l-2 {
+        margin-top: 22%;
+    }
+    #l-gh-icon{
+        font-size: 35px;
+    }
+    .l-gh-t {
+        color: rgba(255, 255, 255, 0.708);
+        font-size: 30px;
+        font-weight: bold;
+    }
+    /* ==============
+    PORTFOLIO END
+    ============== */
+
+    /* ==============
+    CONTACT START
+    ============== */
+
+    #contact{
+        width: 895px;
+    }
+    /* ==============
+    CONTACT END
+    ============== */
+    footer {
+        /* border: 1px solid green; */
+        height: 50px;
+        width: 895px;
+        display: grid;
+        place-items: center;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+}

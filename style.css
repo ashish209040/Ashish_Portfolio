@@ -1,0 +1,1097 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root{
+    font-family:'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* =========================================START-HEADER_NAVIGATION============================================= */
+/* ==============
+HEADER_NAVIGATION
+============== */
+.navigation{
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 98%;
+    margin: 0% 1%;
+    position: absolute;
+    background-image: url("/image/pexels-andrew-neel-2312369.jpg");
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.navigation nav{
+    /* border: 1px solid blue; */
+    height: 60px;
+    margin-left: 330px;
+    width: 60%;
+}
+.navigation nav ul{
+    list-style: none;
+}
+.navigation nav ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navigation nav ul a:hover{
+    color: orangered;
+}
+.navigation nav ul li{
+    float: left;
+    margin-left: 30px;
+}
+
+.navigation-photo{
+    border: 4px solid white;
+    box-shadow: 4px 2px 10px white;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+    left: 600px;
+    background-attachment: fixed;
+}
+
+.My_photo{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.navigation-text{
+    margin-top: 150px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.navigation-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bold{
+    color: rgba(0, 0, 139, 0.845);
+    font-family:  'Montserrat', sans-serif;
+}
+.media-1{
+    /* border: 1px solid green; */
+    height: 35px;
+    width: 35px;
+    margin: 20px 0px;
+    background-color: rgba(255, 255, 255, 0.267);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 8px;
+    border-radius: 50%;
+}
+.media-1:hover{
+    color: white;
+    box-shadow: 1px 1px 10px white;
+}
+.media_icon{
+    height: 100%;
+    width:100%;
+}
+
+main{
+    padding-top: 700px;
+    height: 2500px;
+}
+
+.nav-a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+/* ==============
+HEADER-NAVIGATION
+============== */
+/* =========================================END-HEADER_NAVIGATION============================================= */
+
+
+/* ==============
+ABOUT 
+============== */
+#about{
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 80%;
+    margin: 0px 10%;
+    text-align: justify;
+    color: black;
+    display: grid;
+    place-items: center;
+}
+
+#about p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    width: 80%;
+    margin-bottom: 50px;
+}
+/* ==============
+ABOUT 
+============== */
+
+
+/* =========================================START-SKILLS============================================= */
+/* ===============
+SKILLS
+=============== */
+#skill-img{
+    height: 80%;
+    width: 70%;
+    margin: 5% 10%;
+}
+
+#skill-h1{
+    font-family:'Montserrat', sans-serif;
+    color: rgba(0, 0, 139, 0.823);
+    font-size: 30px;
+    text-align: left;
+    margin:10% 5%;
+}
+
+#skills{
+    /* border: 1px solid green; */
+    background-color: rgba(128, 128, 128, 0.177);
+    height: 500px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.skill-head{
+    /* border: 1px solid blue; */
+    height: 65px;
+    width: 230px;
+    margin: 1% 45%;
+    display: flex;
+}
+
+.skillh-left{
+    /* border: 1px solid red; */
+    margin-top: 5%;
+    width:35%;
+    height: 100%;
+}
+.skillh-right{
+    /* border: 1px solid green; */
+    margin-top:7%;
+    width: 60%;
+    height: 100%;
+}
+
+.skill-items{
+    /* border: 1px solid blue; */
+    height: 300px;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.upper-item{
+    /* border: 1px solid red; */
+    height: 145px;
+    margin:3% 0% ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.u-i-1{
+    /* border: 1px solid grey; */
+    height: 100px;
+    width: 25%;
+    display: grid;
+    place-items: center;
+}
+
+.lower-item{
+    /* border: 1px solid green; */
+    height: 145px;
+    width: 100%;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-i-1{
+    /* border: 1px solid grey; */
+    height: 100px;
+    width: 25%;
+    display: grid;
+    place-items: center;
+}
+
+
+.skill-progress{
+    /* border: 1px solid green; */
+    height: 50px;
+    width: 90%;
+    border-radius: 35px;
+    box-shadow: 2.5px 2.5px 10px rgba(0, 0, 0, 0.493);
+}
+
+.skill_HTML,.skill_CSS,.skill_JS,.skill_JQ,.skill_NJS,.skill_GIT,.skill_RJS,.skill_SQL{
+    border: 1px solid transparent;
+    /* width: 80%; */
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.skill_HTML p,.skill_CSS p,.skill_JS p,.skill_JQ p,.skill_NJS p,.skill_GIT p,.skill_RJS p{
+    margin:6% 20%;
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.skill_SQL p{
+    margin:8.5% 20%;
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.skill_HTML{
+    background-color: blue;
+    width:92%;
+}
+.skill_NJS{
+    background-color: blue;
+    width:85%;
+}
+.skill_JQ{
+    background-color: darkgreen;
+    width:86%;
+}
+.skill_SQL{
+    background-color: darkgreen;
+    width:55%;
+}
+.skill_CSS{
+    background-color: orangered;
+    width:90%;
+}
+.skill_RJS{
+    background-color: orangered;
+    width:59%;
+}
+.skill_JS{
+    background-color: purple;
+    width:65%;
+}
+.skill_GIT{
+    background-color: purple;
+    width:73%;
+}
+/* ===============
+SKILLS
+=============== */
+/* =========================================END-SKILLS============================================= */
+
+
+/* =========================================START-WORK_EXPERIENCE============================================= */
+/* ===============
+START-WORK_EXPERIENCE
+=============== */
+#workexp-img{
+    height: 100%;
+    width: 70%;
+    margin: 5% 10%;
+
+}
+
+#workexp-h1{
+    font-family:'Montserrat', sans-serif;
+    color: rgba(0, 0, 139, 0.823);
+    font-size: 30px;
+    text-align: left;
+    margin-top:6%;
+}
+
+#workexp{
+    /* border: 3px solid pink; */
+    background-color: rgba(0, 0, 0, 0.034);
+    height: 650px;
+}
+.workexp-head{
+    /* border: 1px solid blue; */
+    height: 60px;
+    width: 450px;
+    margin: 2% 45%;
+    display: flex;
+}
+.workh-left{
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 100%;
+}
+.workh-right{
+    /* border: 1px solid green; */
+    width: 80%;
+    height: 100%;
+}
+
+.work-section{
+    /* border: 1px solid blue; */
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.work-box{
+    /* border: 1px solid red; */
+    position: relative;
+    height: 250px;
+    margin-left: 20px;
+    width: 45%;
+}
+
+.work-box:nth-child(2n){
+    left: 53%;
+}
+
+.work-box-divider{
+    position: absolute;
+    height: 95%;
+    width: 0;
+    border: 2px dashed rgba(128, 128, 128, 0.396);
+    top: 10%;
+    left: 50%;
+}
+
+.work-box-traveler{
+    position: sticky;
+    top: 25%;
+}
+
+#work-icon{
+    position: relative;
+    left: -20px;
+    rotate: 135deg;
+    height: 40px;
+    width: 40px;
+}
+
+.w-b-h{
+    /* border: 1px solid green; */
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+
+.w-b-h-left{
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+.w-b-h-right{
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+#w-b-h-img{
+    height: 60px;
+    width: 110px;
+    margin: 2% 70%;
+}
+#w-b-h-h1{
+    color: darkblue;
+    text-align: right;
+}
+.uolo-link{
+    text-decoration: none;
+}
+
+#w-b-h-h1:hover{
+    color: rgba(255, 68, 0, 0.716);
+}
+
+.w-b-main{
+    /* border: 1px solid green; */
+    height: 150px;
+    width: 65%;
+    margin:2% 0% 0% 35%;
+}
+
+.w-b-main h4{
+    font-family:'Montserrat', sans-serif;
+    color: darkgreen;
+}
+.w-b-main h5{
+    font-family:'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.626);
+    margin: -4% 0% 0% 0%;
+    font-size: 12px;
+}
+.w-b-main p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* ===============
+START-WORK_EXPERIENCE
+=============== */
+/* =========================================END-WORK_EXPERIENCE============================================= */
+
+
+/* ========================================START-EDUCATION=========================================== */
+/* ===============
+EDUCATION
+=============== */
+#edu-img{
+    height: 80%;
+    width: 70%;
+    margin: 5% 10%;
+}
+
+#edu-h1{
+    font-family:'Montserrat', sans-serif;
+    color: rgba(0, 0, 139, 0.823);
+    font-size: 30px;
+    text-align: left;
+    margin:5% 5%;
+}
+#education{
+    /* border: 3px solid pink; */
+    height: 1500px;
+}
+.edu-info-odd,.edu-info-even{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+#edu-p{
+    color: orangered;
+    font-weight:bolder;
+}
+.edu-head{
+    /* border: 1px solid blue; */
+    height: 60px;
+    width: 300px;
+    margin: 2% 45%;
+    display: flex;
+}
+.eduh-left{
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 100%;
+}
+.eduh-right{
+    /* border: 1px solid green; */
+    width: 70%;
+    height: 100%;
+}
+
+.edu-section{
+    /* border: 1px solid blue; */
+    position: relative;
+    width: 85%;
+    margin: 8%;
+    height: 80%;
+}
+.edu-box{
+    /* border: 1px solid red; */
+    position: relative;
+    height: 24%;
+    width: 45%;
+    box-shadow: .5px .5px 15px rgba(0, 0, 0, 0.045);
+}
+
+
+.edu-box:nth-child(2n){
+    left:53%
+}
+.edu-box::after{
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(128, 128, 128, 0.845);
+    top: 50%;
+    left: 110%;
+}
+.edu-box:nth-child(2n)::after{
+    position: absolute;
+    left: -45px;
+}
+.edu-box-divider{
+    position: absolute;
+    height: 95%;
+    width: 0;
+    border: 2px dashed rgba(128, 128, 128, 0.396);
+    top: 10%;
+    left: 50%;
+}
+
+.edu-box-traveler{
+    position: sticky;
+    top: 25%;
+}
+#divider-icon{
+    position: relative;
+    left: -22px;
+    height: 45px;
+    width: 45px;
+}
+
+/* ===================================================EDUCATION-ODD-BOXES========================================== */
+
+.edu-level-odd{
+    /* border: 1px solid blue; */
+    display: flex;
+    height: 15%;
+    width: 100%;
+    /* margin: 1% 0%; */
+}
+
+.el-left-odd{
+    /* border: 1px solid red; */
+    margin:2% 5%;
+    height: 110%;
+    width: 15%;
+}
+#e-img-odd{
+    height: 100%;
+    width: 100%;
+}
+
+.el-right-odd{
+    /* border: 1px solid red; */
+    margin-left:20%;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 28px;
+    text-align: right;
+    line-height: 75px;
+}
+.el-right-span{
+    font-size: 15px;
+}
+
+
+.edu_place_date-odd{
+    /* border: 1px solid green; */
+    height: 20%;
+}
+.e_place-odd{
+    /* border: 1px solid darkblue; */
+    height: 42%;
+    width: 100%;
+}
+.e_date-odd{
+    /* border: 1px solid darkblue; */
+    float: right;
+    height: 42%;
+    width: 50%;
+    margin-top: -3%;
+}
+.e_place-odd p{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: right;
+    color:rgba(255, 68, 0, 0.659);
+}
+.e_date-odd p{
+    font-size: 12px;
+    text-align: right;
+    font-weight: bold;
+    opacity: 50%;
+}
+
+.edu_about-odd{
+    /* border: 1px solid blue; */
+    height: 55%;
+    width: 95%;
+    margin: 0px 5%;
+}
+/* ===================================================EDUCATION-ODD-BOXES========================================== */
+/* ===================================================EDUCATION-EVEN-BOXES========================================== */
+
+.edu-level-even{
+    /* border: 1px solid blue; */
+    display: flex;
+    height: 15%;
+    width: 100%;
+    /* margin: 1% 0%; */
+}
+
+.el-right-even{
+    /* border: 1px solid red; */
+    margin:2% 5%;
+    height: 110%;
+    width: 15%;
+}
+#e-img-even{
+    height: 100%;
+    width: 100%;
+}
+
+.el-left-even{
+    /* border: 1px solid red; */
+    margin-right:20%;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 28px;
+    text-align: left;
+    line-height: 75px;
+}
+.el-right-span{
+    font-size: 15px;
+}
+
+
+.edu_place_date-even{
+    /* border: 1px solid green; */
+    height: 20%;
+    /* margin: 1% 0%; */
+}
+.e_place-even{
+    /* border: 1px solid darkblue; */
+    height: 42%;
+    width: 100%;
+}
+.e_date-even{
+    /* border: 1px solid darkblue; */
+    float: left;
+    height: 42%;
+    width: 50%;
+    margin-top: -3%;
+}
+.e_place-even p{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    color:rgba(255, 68, 0, 0.659);
+}
+.e_date-even p{
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    opacity: 50%;
+}
+.edu_about-even{
+    /* border: 1px solid blue; */
+    height: 55%;
+    width: 95%;
+}
+/* ===================================================EDUCATION-EVEN-BOXES========================================== */
+/* ===============
+EDUCATION
+=============== */
+/* =========================================END-EDUCATION============================================= */
+
+
+/* ========================================START-PORTFOLIO========================================= */
+/* ===============
+PORTFOLIO
+=============== */
+#port-img{
+    height: 80%;
+    width: 70%;
+    margin: 5% 10%;
+}
+
+#port-h1{
+    font-family:'Montserrat', sans-serif;
+    color: rgba(0, 0, 139, 0.823);
+    font-size: 30px;
+    text-align: left;
+    margin:5% 5%;
+}
+
+#portfolio{
+    /* border: 3px solid green; */
+    height: 670px;
+    background-color: rgba(128, 128, 128, 0.21);
+}
+.port-head{
+    /* border: 1px solid blue; */
+    height: 60px;
+    width: 250px;
+    margin: 2% 45%;
+    display: flex;
+}
+.porth-left{
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 100%;
+    margin: 6% 0%;
+}
+.porth-right{
+    /* border: 1px solid green; */
+    width: 70%;
+    height: 100%;
+    margin: 6% 0%;
+}
+
+.p-upper-item{
+    /* border: 1px solid blue; */
+    height: 260px;
+    width: 95%;
+    margin:0% 2%;
+    display: flex;
+}
+.p-lower-item{
+    /* border: 1px solid blue; */
+    height: 260px;
+    width: 95%;
+    margin:1% 2%;
+    display: flex;
+}
+
+.pu-i-1,.pl-i-1{
+    /* border: 1px solid red; */
+    width: 30%;
+    border-radius: 30px;
+    height: 100%;
+    margin: 0 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.712);
+}
+.top{
+    /* border: 1px solid green; */
+    height: 20%;
+    width: 90%;
+    margin-bottom: 3%;
+    display: flex;
+}
+.low{
+    /* border: 1px solid green; */
+    height: 60%;
+    width: 90%;
+    display: flex;
+}
+.t-1,.t-2{
+    /* border: 1px solid darkorange; */
+    width: 50%;
+    height: 100%;
+}
+.l-1,.l-2{
+    /* border: 1px solid darkorange; */
+    width: 50%;
+    height: 100%;
+}
+#t1-btn{
+    height: 30px;
+    width: 90%;
+    margin: 5%;
+    font-size: small;
+    color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+#t2-btn{
+    border-radius:50% ;
+    height: 30px;
+    width: 30px;
+    margin: 5% 0% 5% 70%; 
+    border: none; 
+}
+#t2-btn i{
+    font-size: large;
+    display: grid;
+    place-items: center;
+    color: black;
+}
+#t2-btn i:hover{
+    cursor: pointer;
+    color: white;
+}
+#t2-btn:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.box-1::before,.box-2::before,.box-3::before,.box-4::before,.box-5::before,.box-6::before{
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 30px;
+    z-index: -1;
+}
+.box-1{
+    /* background-color: #fbc531; */
+    background-image: url(/image/SHOE_WEB.png);
+    background-size: contain;  
+    position: relative; 
+    z-index: 1; 
+}
+
+.box-2{
+    /* background-color: #ff4757; */
+    background-image: url(/image/PORTFOLIO_WEB.png);
+    background-size: contain;  
+    position: relative; 
+    z-index: 1; 
+}
+.box-3{
+    /* background-color: #D980FA; */
+    background-image: url(/image/GUESS_GAME_WEB.png);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    position: relative; 
+    z-index: 1; 
+}
+.box-4{
+    /* background-color: #6D214F; */
+    background-image: url(/image/AMAZON_WEB.png);
+    background-size: contain;  
+    position: relative; 
+    z-index: 1; 
+}
+.box-5{
+    /* background-color: #ff793f; */
+    background-image: url(/image/STONE_GAME_WEB.png);
+    background-size: contain;  
+    position: relative; 
+    z-index: 1; 
+}
+.box-6{
+    /* background-color: #58B19F; */
+    background-image: url(/image/FLY_WEB.png);
+    background-size: contain;  
+    position: relative; 
+    z-index: 1; 
+}
+
+.l-1-h1{
+    color: white;
+    width: 100%;
+    font-family:'Montserrat', sans-serif;
+    display: flex;
+    margin: 45% 0 5% 5%;
+}
+.l-gh-t{
+    color: rgba(255, 255, 255, 0.708);
+    font-size: 15px;
+    font-weight: bold;
+    /* margin-top: 100%; */
+    margin-left: 40%;
+    font-family:'Open Sans', sans-serif;
+    display: inline;
+}
+.l-2{
+    margin-top: 31%;
+}
+.l-gh-icon{
+    /* color: rgba(255, 255, 255, 0.5); */
+    margin-left: 2%;
+}
+#l-gh-icon{
+    color: rgba(255, 255, 255, 0.637);
+}
+
+/* ===============
+PORTFOLIO
+=============== */
+/* =========================================END-PORTFOLIO============================================= */
+
+
+/* =============================================================================================== */
+/* ===============
+CONTACT
+=============== */
+#con-img{
+    height: 80%;
+    width: 70%;
+    margin: 5% 10%;
+}
+
+#con-h1{
+    font-family:'Montserrat', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin:5% 5%;
+}
+
+#contact{
+    /* border: 3px solid green; */
+    height: 600px;
+    background-color: rgba(1, 1, 105, 0.878);
+}
+.con-head{
+    /* border: 1px solid blue; */
+    height: 60px;
+    width: 250px;
+    margin: 2% 45%;
+    display: flex;
+}
+.conh-left{
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 92%;
+    margin-top: 10%;
+}
+.conh-right{
+    /* border: 1px solid green; */
+    width: 70%;
+    height: 100%;
+    margin-top:10%;
+}
+.con-section{
+    /* border: 1px solid red; */
+    height: 550px;
+    display: flex;
+}
+.con-left{
+    /* border: 1px solid blue; */
+    height: 93%;
+    width: 50%;
+    margin-top: 5%;
+    
+}
+.con-left form{
+    /* border: 1px solid green; */
+    height: 450px;
+    width: 80%;
+    margin-left: 15%;
+}
+.con-left form textarea{
+    width: 98%;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.127);
+    margin-top: 5%;
+}
+.con-left form input{
+    width: 98%;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.127);
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+.form-btn{
+    text-align: center;
+    height: 35px;
+    margin: 5% 39%;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.form-btn:hover{
+    cursor: pointer;
+    color: orangered;
+    background-color: white;
+    font-weight: bold;
+}
+
+input::placeholder{
+    margin-top: 50px;
+    color: white;
+    font-weight:500;
+    padding-left: 2%;
+}
+textarea::placeholder{
+    color: white;
+    font-weight:500;
+    padding:2% 2%;
+    
+}
+.con-left form hr{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+.con-right{
+    /* border: 1px solid green; */
+    height: 93%;
+    width: 50%;
+    color: white;
+    margin-top: 4.5%;
+}
+#touch{
+    margin-top: 5%;
+}
+#touch-p{
+    width: 80%;
+}
+#address{
+    margin-top:5%;
+}
+.location,.number,.email{
+    display: flex;
+}
+.location-l,.number-l,.email-l{
+    margin: 1% 1.5%;
+}
+.location-2,.number-2,.email-2{
+    margin: 1% 1.5%;
+}
+
+.l-2-gh{
+    display: inline;
+}
+/* ===============
+CONTACT
+=============== */
+/* ====================================END_CONTACT============================================= */
+
+
+/* =====================================START_FOOTER============================================ */
+/* ===============
+FOOTER
+=============== */
+footer{
+    /* border: 1px solid green; */
+    height: 50px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer-text{
+    /* border: 1px solid red; */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    height: 100%;
+    margin: 0;
+    width: 50%;
+    display: grid;
+    place-items: center;
+}
+
+/* ===============
+FOOTER
+=============== */
+/* =====================================END_FOOTER============================================ */
